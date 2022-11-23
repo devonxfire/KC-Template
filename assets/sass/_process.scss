@@ -1,0 +1,77 @@
+/* Our Process Section */
+
+.process-grid-container {
+  gap: 50px;
+}
+
+.steps-row-1 {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.steps-row-2,
+.steps-row-3 {
+  display: grid;
+  gap: 15px;
+  grid-template-columns: 1fr 1fr;
+  padding-bottom: 30px;
+}
+
+.steps-row-2 {
+  margin-bottom: -36px;
+}
+
+.steps-row-3 {
+  margin-top: -12px;
+}
+
+.step-headings {
+  font-family: "Bebas Neue", cursive;
+  font-weight: 400;
+  font-size: 32px;
+  color: #3f3d56;
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 450px;
+  border: solid 6px #3f3d56;
+  padding: 6px 30px;
+}
+
+.step-2-container,
+.step-4-container {
+  border-top: solid 6px white;
+}
+
+.step-3-container {
+  margin-left: -16px;
+}
+
+.step-2,
+.step-4 {
+  margin-top: -6px;
+}
+
+.process-text {
+  padding: 20px 0 20px 0;
+  padding-left: 30px;
+}
+
+.pt-1 {
+  border-left: solid 6px white;
+}
+
+.pt-3 {
+  border-left: solid 6px white;
+}
+
+.process-img-container {
+  display: flex;
+  align-items: center;
+}
+.process-img-container img {
+  width: 100%;
+}
+
+.cta-process {
+  padding-left: 30px;
+  margin-top: 40px;
+}

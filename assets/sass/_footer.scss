@@ -1,0 +1,52 @@
+/* Footer Section */
+.contact-section {
+  font-family: "Courier Prime", monospace;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  padding-bottom: 40px;
+}
+
+.footer-logo {
+  height: 94px;
+  width: 80%;
+  border: solid 5px #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.links-container a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.contact-grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.email-text,
+.socials {
+  padding-top: 20px;
+}
+
+input,
+textarea {
+  display: inline-block;
+  width: 100%;
+  background-color: transparent;
+  border: 5px solid #ffffff;
+  color: #ffffff;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+::placeholder {
+  color: #ffffff;
+}
+
+textarea:focus,
+input:focus {
+  outline: 0;
+}

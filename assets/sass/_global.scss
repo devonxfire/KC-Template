@@ -1,0 +1,86 @@
+/* Fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap");
+
+/* Global Styling */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 82px;
+  font-weight: 400;
+  color: #3f3d56;
+}
+
+h2 {
+  // padding-top: 71px;
+  font-family: "Bebas Neue", cursive;
+  font-weight: 400;
+  font-size: 62px;
+  color: #3f3d56;
+}
+
+h3 {
+  font-family: "Bebas Neue", cursive;
+  font-weight: 400;
+  font-size: 52px;
+  color: #3f3d56;
+}
+
+p,
+li,
+input,
+textarea {
+  font-family: "Courier Prime", monospace;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  // padding: 30px 22px;
+}
+
+/* Outer Wrapper */
+
+.wrapper {
+  width: 100%;
+}
+
+.wrapper-blue {
+  background-color: #0afff3;
+}
+
+.wrapper-dark {
+  background-color: #3f3d56;
+}
+
+.container {
+  width: 100%;
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 30px 15px;
+}
+
+.cta {
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #eaff6c;
+  font-family: "Courier Prime", monospace;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 12px 27px;
+  box-shadow: 5px 5px 0 0 #ddf067;
+
+  border: none;
+  text-decoration: none;
+  color: #3f3d56;
+}

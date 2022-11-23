@@ -1,0 +1,23 @@
+/* About Us Styles */
+
+.about-us-columns-container {
+  display: flex;
+}
+
+.quick-facts-container {
+  width: 100%;
+  max-width: 220px;
+}
+
+#quick-facts {
+  font-weight: 700;
+}
+
+.facts-list {
+  padding-top: 15px;
+}
+
+.about-text-columns {
+  width: 70%;
+  column-count: 2;
+}

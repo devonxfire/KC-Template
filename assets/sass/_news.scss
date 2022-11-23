@@ -1,0 +1,29 @@
+/* News Section Styling */
+
+// .news-section {
+//   padding-bottom: 100px;
+//   background-color: #0afff3;
+//   padding-left: 30px;
+// }
+.news-grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+
+  margin-top: 40px;
+}
+
+.news-title {
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.news-block img {
+  width: 100%;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
